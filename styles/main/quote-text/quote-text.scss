@@ -1,0 +1,31 @@
+.quote-text {
+    width: 100%;
+    display: flex;
+    background-color: rgb(34, 48, 71);
+    position: relative;
+    z-index: 2;
+    padding: 135px 0;
+    align-items: center;
+    justify-content: center;
+
+    &_content {
+        display: flex;
+        width: 720px;
+        text-align: center;
+    }
+
+    &_content span {
+        font-size: 18px;
+        color: rgb(0, 255, 242);
+        font-family: 'Dosis', sans-serif;
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width:440px) {
+    .quote-text {
+        &_content span {
+            padding: 0 10px;
+        }
+    }
+}

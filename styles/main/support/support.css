@@ -1,0 +1,223 @@
+.support {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.support__btn {
+  width: 365px;
+  height: 70px;
+  position: relative;
+  top: -35px;
+  font-family: 'Dosis', sans-serif;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+          box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+  cursor: pointer;
+  outline: none;
+}
+
+.support__btn:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+.support__btn span {
+  font-size: 17px;
+}
+
+.support .support__text {
+  width: 1000px;
+  margin-top: 100px;
+}
+
+.support .support__text_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 17px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.support .support__text_list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.support .support__text_list li ul {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.support .support__text_list li ul a {
+  font-size: 14px;
+  color: #97a4be;
+  margin: 10px 0;
+}
+
+.support .get-in-touch__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.support .get-in-touch__section_enter {
+  margin: 70px 0px 100px 0px;
+}
+
+.support .get-in-touch__section_enter .get-in-touch_btn {
+  height: 50px;
+  width: 170px;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+          box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+  cursor: pointer;
+  outline: none;
+}
+
+.support .get-in-touch__section_enter .get-in-touch_btn .btn_text {
+  color: black;
+  font-size: 17px;
+}
+
+.support .get-in-touch__section_enter .get-in-touch_btn:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+.support .get-in-touch__section_enter input {
+  width: 527px;
+  height: 50px;
+  background-color: #f5f6fa;
+  outline: none;
+  margin-right: 32px;
+  padding: 0 20px;
+}
+
+.support .get-in-touch__section h3 {
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.support .get-in-touch__section span {
+  margin-top: 35px;
+  color: #97a4be;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1010px) {
+  .support .support__text {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .support .support__text_list {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .support .support__text_list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .support .get-in-touch__section .get-in-touch__section_enter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .support .get-in-touch__section .get-in-touch__section_enter .get-in-touch_btn {
+    margin-top: 50px;
+  }
+  .support .get-in-touch__section_enter input {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .support .get-in-touch__section_enter input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .support .get-in-touch__section_enter input {
+    width: 250px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .support .support__text_list li {
+    margin: 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .support .support__btn {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .support .get-in-touch__section {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=support.css.map */

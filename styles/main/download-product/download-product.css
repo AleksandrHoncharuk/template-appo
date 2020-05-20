@@ -1,0 +1,178 @@
+main {
+  width: 100%;
+}
+
+main article .download-product {
+  width: 100%;
+  background-color: #223047;
+}
+
+main article .download-product__content {
+  width: 100%;
+  padding-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main article .download-product__content-text {
+  width: 433px;
+  height: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 375px;
+}
+
+main article .download-product__content-text h4 {
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+main article .download-product__content-text p {
+  color: #97a4be;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  margin-top: 55px;
+  word-spacing: 2px;
+  line-height: 2;
+}
+
+main article .download-product .download-product__content-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 65px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main article .download-product .download-product__content-buttons-first {
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.125s all;
+  transition: 0.125s all;
+}
+
+main article .download-product .download-product__content-buttons-first:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+main article .download-product .download-product__content-buttons-first a {
+  font-size: 14px;
+}
+
+main article .download-product .download-product__content-buttons-second {
+  background-color: #223047;
+  border: 1px solid #97a4be;
+  border-radius: 10px;
+  margin-right: 60px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.125s all;
+  transition: 0.125s all;
+}
+
+main article .download-product .download-product__content-buttons-second:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+main article .download-product .download-product__content-buttons-second a {
+  color: #97a4be;
+  font-size: 14px;
+  width: 145px;
+}
+
+main article .download-product__content img {
+  position: relative;
+  top: 85px;
+  margin-right: 375px;
+}
+
+@media only screen and (max-width: 1800px) {
+  main article .download-product {
+    width: 100%;
+  }
+  main article .download-product__content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main article .download-product__content-text {
+    margin-left: 0px;
+  }
+  main article .download-product__content img {
+    margin-right: 0px;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  main {
+    width: 100%;
+  }
+  main article .download-product__content img {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  main {
+    width: 100%;
+  }
+  main article .download-product__content img {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 762px) {
+  main {
+    width: 100%;
+  }
+  main article .download-product__content img {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  main article .download-product__content-text {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  main article .download-product .download-product__content-buttons-second {
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=download-product.css.map */

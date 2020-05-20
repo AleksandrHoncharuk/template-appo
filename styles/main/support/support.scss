@@ -1,0 +1,198 @@
+.support {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__btn {
+        width: 365px;
+        height: 70px;
+        position: relative;
+        top: -35px;
+        font-family: 'Dosis', sans-serif;
+        box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+        cursor: pointer;
+        outline: none;
+
+        &:active {
+            transform: translate3d(2px, 2px,0);
+        }
+    }
+    &__btn span {
+        font-size: 17px;
+    }
+
+    .support__text {
+        width: 1000px;
+        margin-top: 100px;
+        
+        &_list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            font-size: 17px;
+            font-family: 'Dosis', sans-serif;
+        }
+        &_list li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_list li ul{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        &_list li ul a {
+            font-size: 14px;
+            color: #97a4be;
+            margin: 10px 0;
+
+        }
+    }
+
+    .get-in-touch__section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+
+        &_enter {
+            margin: 70px 0px 100px 0px;
+
+            .get-in-touch_btn {
+                height: 50px;
+                width: 170px;
+                box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+                cursor: pointer;
+                outline: none;
+
+                .btn_text {
+                    color: black;
+                    font-size: 17px;
+                }
+        
+                &:active {
+                    transform: translate3d(2px, 2px,0);
+                }
+            }
+        }
+
+        &_enter input{
+            width: 527px;
+            height: 50px;
+            background-color: rgb(245, 246, 250);
+            outline: none;
+            margin-right: 32px;
+            padding: 0 20px
+        }
+    }
+
+    .get-in-touch__section h3 {
+        font-size: 30px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .get-in-touch__section span {
+        margin-top: 35px;
+        color: #97a4be;
+        font-family: 'Dosis', sans-serif;
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (max-width: 1010px) {
+    .support {
+        .support__text {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+
+            &_list  {
+                width: 100%;
+                display: flex;
+            }
+
+            &_list li {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .support {
+        .get-in-touch__section {
+            .get-in-touch__section_enter { 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .get-in-touch_btn {
+                    margin-top: 50px;
+                }
+            }
+
+            &_enter input{
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .support {
+        .get-in-touch__section {
+            &_enter input{
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .support {
+        .get-in-touch__section {
+            &_enter input{
+                width: 250px;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .support {
+        .support__text {
+            &_list li {
+                margin: 20px 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .support {
+        .support__btn {
+            width: 200px;
+            height: 50px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .support {
+        .get-in-touch__section {
+            text-align: center;
+        }
+    }
+}
+

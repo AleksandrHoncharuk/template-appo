@@ -1,0 +1,143 @@
+.download-app {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f5f6fa;
+}
+
+.download-app .big-phone {
+  margin: 50px 0;
+  margin-left: 375px;
+  z-index: 1;
+}
+
+.download-app .small-phone {
+  position: relative;
+  top: 30px;
+  right: 110px;
+  z-index: 0;
+}
+
+.download-app_text {
+  width: 475px;
+  margin-top: 40px;
+}
+
+.download-app_text-buttons {
+  margin-top: 40px;
+}
+
+.download-app_text-buttons .google-play {
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.125s all;
+  transition: 0.125s all;
+}
+
+.download-app_text-buttons .google-play:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+.download-app_text-buttons .app-store {
+  margin-left: 30px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.125s all;
+  transition: 0.125s all;
+}
+
+.download-app_text-buttons .app-store:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+.download-app_text h3 {
+  font-size: 40px;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 40px;
+}
+
+.download-app_text span {
+  font-size: 14px;
+  color: #97a4be;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 1800px) {
+  .download-app {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download-app .big-phone {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .download-app .big-phone {
+    margin-left: 100px;
+  }
+  .download-app_text {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .download-app .big-phone {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .download-app .big-phone {
+    width: 200px;
+  }
+  .download-app .small-phone {
+    width: 180px;
+    top: 5px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .download-app .big-phone {
+    width: 150px;
+  }
+  .download-app .small-phone {
+    width: 130px;
+    top: 5px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .download-app_text-buttons .google-play img {
+    width: 120px;
+  }
+  .download-app_text-buttons .app-store img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .download-app_text span {
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=download-app.css.map */

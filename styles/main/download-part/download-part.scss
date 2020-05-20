@@ -1,0 +1,88 @@
+.download-part {
+    width: 100%;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 200px;
+
+        .background-img {
+            position: relative;
+            z-index: 1;
+            top: 120px;
+            margin-bottom: 60px;
+        }
+
+        &_z-index {
+            z-index: 2;
+            margin-top: -270px;
+
+            .download-part_btn {
+                height: 50px;
+                width: 170px;
+                margin-top: 75px;
+                cursor: pointer;
+                outline: none;
+                transition: 0.125s all;
+                box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+    
+                &:active {
+                    transform: translate3d(2px, 2px,0);
+                }
+            }
+
+            .download-part_btn span {
+                font-family: 'Dosis', sans-serif;
+                font-size: 15px;
+            }
+        }
+
+        &_z-index h3 {
+            font-family: 'Dosis', sans-serif;
+            font-size: 30px;
+        }
+
+        &_z-index h4 {
+            font-family: 'Dosis', sans-serif;
+            font-size: 17px;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 914px) {
+    .download-part {
+        &-content {
+            .background-img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .download-part {
+        &-content {
+            margin-bottom: 100px;
+            
+            &_z-index {
+                margin-top: -170px;
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .download-part {
+        &-content {
+            margin-bottom: 100px;
+            
+            &_z-index {
+                margin-top: -50px;
+            }
+        }
+    }
+}

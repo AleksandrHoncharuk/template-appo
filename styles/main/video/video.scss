@@ -1,0 +1,62 @@
+.video {
+    width: 100%;
+    background-color: rgb(34, 48, 71);
+    position: relative;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+        .video_btn {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-top: 150px;
+            cursor: pointer;
+            outline: none;
+            transition: 0.125s all;
+
+            &:active {
+                transform: translate3d(2px, 2px,0);
+            }
+        }
+
+        .video_btn .video_btn-text {
+            font-size: 25px;
+            position: relative;
+            color: black;
+            left: 4px;
+            top: 2px;
+        }
+    }
+
+    .video__content h3 {
+        color: #ffffff;
+        margin-top: 30px;
+        font-size: 17px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .video__content span {
+        margin-top: 53px;
+        margin-bottom: 150px;
+        line-height: 2;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+}
+
+
+@media only screen and (max-width: 440px) {
+    .video {
+        .video__content span {
+            padding: 0 10px;
+        }
+    }
+}

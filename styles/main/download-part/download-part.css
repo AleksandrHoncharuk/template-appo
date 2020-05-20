@@ -1,0 +1,88 @@
+.download-part {
+  width: 100%;
+}
+
+.download-part-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.download-part-content .background-img {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  margin-bottom: 60px;
+}
+
+.download-part-content_z-index {
+  z-index: 2;
+  margin-top: -270px;
+}
+
+.download-part-content_z-index .download-part_btn {
+  height: 50px;
+  width: 170px;
+  margin-top: 75px;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: 0.125s all;
+  transition: 0.125s all;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+          box-shadow: 0px 2px 5px 0px rgba(3, 164, 156, 0.598);
+}
+
+.download-part-content_z-index .download-part_btn:active {
+  -webkit-transform: translate3d(2px, 2px, 0);
+          transform: translate3d(2px, 2px, 0);
+}
+
+.download-part-content_z-index .download-part_btn span {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+}
+
+.download-part-content_z-index h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+}
+
+.download-part-content_z-index h4 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 914px) {
+  .download-part-content .background-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .download-part-content {
+    margin-bottom: 100px;
+  }
+  .download-part-content_z-index {
+    margin-top: -170px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .download-part-content {
+    margin-bottom: 100px;
+  }
+  .download-part-content_z-index {
+    margin-top: -50px;
+  }
+}
+/*# sourceMappingURL=download-part.css.map */

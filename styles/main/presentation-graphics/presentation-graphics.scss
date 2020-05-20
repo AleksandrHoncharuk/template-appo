@@ -1,0 +1,268 @@
+.presentation-graphics {
+    width: 100%;
+    background-color: rgb(245, 246, 250);
+
+    &__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        &-text {
+            width: 470px;
+            display: flex;
+            flex-direction: column;
+            text-align: end;
+            margin-left: 375px; 
+            
+            p {
+                font-size: 17px;
+                font-family: 'Dosis', sans-serif;
+            }
+            
+            .android {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 50px;
+                
+                .check-mark-img {
+                    position: relative;
+                    right: 15px;
+                }
+            }
+
+            .iPhone {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 30px;
+            }
+
+                .iPhone img:nth-child(2) {
+                    position: relative;
+                    right: 15px;
+                }
+        }
+
+        &-text span {
+            font-size: 14px;
+            color: #97a4be;
+            line-height: 2;
+            margin-top: 43px;
+        }
+
+        &-text h3 {
+            font-family: 'Dosis', sans-serif;
+            font-size: 30px;
+            margin-top: 145px;
+        }
+
+        .graphics_img {
+            display: flex;
+            z-index: 0;
+            margin-right: 300px;  
+
+            &-left {
+                position: relative;
+                z-index: 0;
+                left: 150px; top: 150px;
+            }
+
+            &-mid {
+                position: relative;
+                z-index: 1;
+                top: 45px; left: 50px;
+            }
+
+            &-right {
+                position: relative;
+                z-index: 0;
+                top: 190px; right: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    body {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .presentation-graphics {
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            &-text {
+                margin-left: 0px; 
+            }
+
+            .graphics_img {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .presentation-graphics {
+        &__content {
+            &-text {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                .android {
+                    justify-content: center;
+                }
+    
+                .iPhone {
+                    justify-content: center;
+                }
+            }
+
+            .graphics_img {
+                margin-top: 100px;
+                
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 745px) {
+    .presentation-graphics {
+        &__content {
+            .graphics_img {
+                width: 100%;
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 700px) {
+    .presentation-graphics {
+        &__content {
+            .graphics_img {
+                &-left {
+                    position: relative;
+                    z-index: 0;
+                    left: 60px; top: 150px;
+                }
+    
+                &-mid {
+                    position: relative;
+                    z-index: 1;
+                    top: 45px; left: -20px;
+                }
+    
+                &-right {
+                    position: relative;
+                    z-index: 0;
+                    top: 190px; right: 100px;
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 650px) {
+    .presentation-graphics {
+        &__content {
+            .graphics_img {
+                &-left {
+                    width: 150px;
+                    position: relative;
+                    z-index: 0;
+                    left: 60px; top: 150px;
+                }
+    
+                &-mid {
+                    width: 230px;
+                    position: relative;
+                    z-index: 1;
+                    top: 45px; left: -20px;
+                }
+    
+                &-right {
+                    width: 150px;
+                    position: relative;
+                    z-index: 0;
+                    top: 190px; right: 100px;
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 460px) {
+    .presentation-graphics {
+        &__content {
+            .graphics_img {
+                &-left {
+                    width: 150px;
+                    position: relative;
+                    z-index: 0;
+                    left: 20px; top: 150px;
+                }
+    
+                &-mid {
+                    width: 230px;
+                    position: relative;
+                    z-index: 1;
+                    top: 45px; left: -60px;
+                }
+    
+                &-right {
+                    width: 150px;
+                    position: relative;
+                    z-index: 0;
+                    top: 190px; right: 140px;
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (max-width: 440px) {
+    .presentation-graphics {
+        &__content {
+            &-text span{
+                padding: 0px 10px; 
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .presentation-graphics {
+        &__content {
+            .graphics_img {
+                &-left {
+                    width: 130px;
+                    position: relative;
+                    z-index: 0;
+                    left: 20px; top: 150px;
+                }
+    
+                &-mid {
+                    width: 210px;
+                    position: relative;
+                    z-index: 1;
+                    top: 45px; left: -60px;
+                }
+    
+                &-right {
+                    width: 130px;
+                    position: relative;
+                    z-index: 0;
+                    top: 190px; right: 140px;
+                }
+            }
+        }
+    } 
+}

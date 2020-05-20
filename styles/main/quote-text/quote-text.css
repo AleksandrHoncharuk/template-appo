@@ -1,0 +1,38 @@
+.quote-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #223047;
+  position: relative;
+  z-index: 2;
+  padding: 135px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.quote-text_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 720px;
+  text-align: center;
+}
+
+.quote-text_content span {
+  font-size: 18px;
+  color: #00fff2;
+  font-family: 'Dosis', sans-serif;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 440px) {
+  .quote-text_content span {
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=quote-text.css.map */

@@ -1,0 +1,185 @@
+main {
+    width: 100%;
+
+    article {
+        .download-product {
+            width: 100%;
+            background-color: rgb(34, 48, 71);
+
+            &__content {
+                width: 100%;
+                padding-top: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                &-text {
+                    width: 433px;
+                    height: 324px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 375px;
+                }
+
+                &-text h4 {
+                    color: #ffffff;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 40px;
+                }
+
+                &-text p {
+                    color: #97a4be;
+                    font-family: 'Dosis', sans-serif;
+                    font-size: 14px;
+                    margin-top: 55px;
+                    word-spacing: 2px;
+                    line-height: 2;
+                }
+            }
+
+            .download-product__content-buttons {
+                display: flex;
+                margin-top: 65px;
+                justify-content: space-between;
+
+                &-first {
+                    width: 170px;
+                    height: 40px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    outline: none;
+                    transition: 0.125s all;
+
+                    &:active {
+                        transform: translate3d(2px, 2px,0);
+                    }
+                }
+
+                &-first a{
+                    font-size: 14px;
+                }
+
+                &-second {
+                    background-color: rgb(34, 48, 71);
+                    border: 1px solid #97a4be;
+                    border-radius: 10px;
+                    margin-right: 60px;
+                    cursor: pointer;
+                    outline: none;
+                    transition: 0.125s all;
+
+                    &:active {
+                        transform: translate3d(2px, 2px,0);
+                    }
+                    
+                }
+
+                &-second a {
+                    color: #97a4be;
+                    font-size: 14px;
+                    width: 145px;
+                }
+            }
+
+            &__content img {
+                position: relative;
+                top: 85px;
+                margin-right: 375px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    main {
+        article {
+            .download-product {
+                width: 100%;
+            
+
+                &__content {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    &-text {
+                        margin-left: 0px;
+                    }
+                }
+
+                &__content img {
+                    margin-right: 0px;
+                    margin-left: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    main {
+        width: 100%;
+
+        article {
+            .download-product {
+                &__content img {
+                    margin-left: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    main {
+        width: 100%;
+    
+        article {
+            .download-product {
+                &__content img {
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 762px) {
+    main {
+        width: 100%;
+    
+        article {
+            .download-product {
+                &__content img {
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    main {
+        article {
+            .download-product {
+                &__content {
+                    &-text {
+                        width: 100%;
+                        text-align: center;
+                        padding: 0 10px;
+                    }
+                }
+
+                .download-product__content-buttons{
+                    &-second {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

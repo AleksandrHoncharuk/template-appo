@@ -1,0 +1,89 @@
+.company-info {
+    width: 100%;
+    background-color: rgb(245, 246, 250);
+
+    &__content {
+        display: flex;
+        width: 100%;
+
+        &-text {
+            margin: 145px 0px 0px 125px;
+            width: 470px;
+        }
+
+        &-text p {
+            font-size: 30px;
+            font-family: 'Dosis', sans-serif;
+            margin-bottom: 55px;
+        }
+
+        &-text span {
+                color: #97a4be;
+                font-family: 'Dosis', sans-serif;
+                font-size: 14px;
+                word-spacing: 2px;
+                line-height: 2;
+                
+        } 
+    }
+}
+
+@media only screen and (max-width: 1530px) {
+    .company-info {
+        &__content img {
+            width: 600px;
+        }
+
+        &__content {
+            &-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0px 0px;
+                width: 470px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    .company-info {
+        background-color: rgb(34, 48, 71);
+
+        &__content img {
+            display: none;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+            
+
+            &-text {
+                text-align: center;
+                margin-left: 0px;
+            }
+
+            &-text p {
+                color: #ffffff;
+            }
+
+            &-text span {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .company-info {
+        &__content {
+            &-text {
+                padding: 0 10px;
+            }
+        }
+    }
+}

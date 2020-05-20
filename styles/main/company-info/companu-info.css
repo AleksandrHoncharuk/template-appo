@@ -1,0 +1,89 @@
+.company-info {
+  width: 100%;
+  background-color: #f5f6fa;
+}
+
+.company-info__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.company-info__content-text {
+  margin: 145px 0px 0px 125px;
+  width: 470px;
+}
+
+.company-info__content-text p {
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 55px;
+}
+
+.company-info__content-text span {
+  color: #97a4be;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  word-spacing: 2px;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 1530px) {
+  .company-info__content img {
+    width: 600px;
+  }
+  .company-info__content-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px;
+    width: 470px;
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .company-info {
+    background-color: #223047;
+  }
+  .company-info__content img {
+    display: none;
+  }
+  .company-info__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 50px 0;
+  }
+  .company-info__content-text {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .company-info__content-text p {
+    color: #ffffff;
+  }
+  .company-info__content-text span {
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .company-info__content-text {
+    padding: 0 10px;
+  }
+}
+/*# sourceMappingURL=companu-info.css.map */
